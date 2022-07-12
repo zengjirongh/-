@@ -21,8 +21,7 @@ def select_sort(arr):
 
 
 if __name__ == '__main__':
-    list_item = [i for i in range(1, 50)]
+    list_item = [i for i in range(1, 51)]
     random.shuffle(list_item)
     sort_lis = select_sort(list_item)
     print(sort_lis)
-
